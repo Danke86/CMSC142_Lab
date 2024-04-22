@@ -37,4 +37,5 @@ Repeat until nopts[move] == 1, and stay at that stack.
 Ex
 Initial|Decrement|Carryover|Carryover+End (Current Stack TOS is == 1)
 4000 -> 3000 ->     3200 	-> 3210
-^       ^            ^        	     ^
+^       ^            ^         ^
+Print the the values of all TOS at the end of every decrement (not including decrements during the >=3 decrements, those you print after you meet the TOS == 1 condition)
