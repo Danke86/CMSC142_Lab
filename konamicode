@@ -1,0 +1,40 @@
+Initial Values
+
+5 54321
+4 5432
+3 543
+2 54
+1 5
+
+4 4321
+3 432
+2 43
+1 4
+
+The Cheat Code:
+
+TOS
+4321 = 1234
+4320 = 123
+4310 = 124
+4300 = 12
+4210 = 134
+4200 = 13
+4100 = 14
+4000 = 1
+3210 = 234
+3200 = 23
+3100 = 24
+3000 = 2
+2100 = 34
+2000 = 3
+1000 = 4
+
+If nopts[move] == 0, backtrack.
+
+When decrementing a TOS of value >=3, decrement the stack, carryover that value to the next stack and decrement it.
+Repeat until nopts[move] == 1, and stay at that stack.
+Ex
+Initial|Decrement|Carryover|Carryover+End (Current Stack TOS is == 1)
+4000 -> 3000 ->     3200 	-> 3210
+^       ^            ^        	     ^
