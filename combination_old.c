@@ -73,3 +73,37 @@ int main(){
 		count++;
 	}
 }
+
+
+// printMatrix(option);
+
+	// while (nopts[start] >0) //while dummy stack is not empty
+	// {
+		
+	// 	printf("ITERATION COUNT %d\n",count);
+	// 	if(nopts[move]>0) 
+	// 	{	
+	// 		//if soemthing
+	// 		move++;
+	// 		nopts[move]=0; //initialize new move
+
+			
+			
+	// 	W
+			
+	// 	}
+	// 	else 
+	// 	{
+	// 		printf("I BACKTRACKED\n");
+	// 		move--;
+	// 		nopts[move]--;
+
+	// 	}
+	// 	printf("TOS: %d %d %d\n",nopts[1],nopts[2],nopts[3]);
+	// 	printf("%d %d %d\n", option[1][1],option[1][2],option[1][3]);
+	// 	printf("%d %d %d\n", option[2][1],option[2][2],option[2][3]);
+	// 	printf("%d %d %d\n", option[3][1],option[3][2],option[3][3]);
+	// 	printf("\n");
+	// 	printf("MOVE IS AT %d\n", move);
+	// 	count++;
+	// }

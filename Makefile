@@ -1,3 +1,5 @@
+F=cinensegabriel_exer9
+
 default: combi
 
 perm:
@@ -11,4 +13,8 @@ seq:
 combi:
 	gcc -o combination combination.c
 	./combination
+
+final: 
+	gcc -o $(F) $(F).c
+	./$(F)
 
