@@ -1,4 +1,4 @@
-F=cinensegabriel_exer9
+F=cinensegabriel_exer7
 
 default: run
 
